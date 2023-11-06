@@ -1,0 +1,114 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.navBar{
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: lightcyan;
+  display: flex;
+  gap: 30px;
+
+}
+
+.table{
+  color: black;
+  background-color: lightsteelblue;
+  margin-top: 20px; 
+  padding: 20px;
+  
+}
+
+
+.employeeTable{
+  color: rgb(136, 36, 36);
+  background-color: lightblue;
+  padding-top: 30px;  
+}
+.employData{
+  margin: 20px;
+  padding: 24px;
+}
+.subnavText{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.navBtn{
+  background-color:lightslategrey;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+}
+.navBtn:hover{
+  background-color: white;
+  color: lightseagreen;
+}
+.lorems{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: grey;
+  color: white;
+}
+.aboutPages{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: peru;
+}
+.helpPages{
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: purple;
+}
+
+.heading{
+  justify-content: center;
+  display: flex;
+}
+.homePage{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+color: purple;
+}
+.fullTable{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.Button{
+  background-color: purple;
+  color: white;
+  padding: 4px;
+  border-radius: 10px;
+
+}
+.inputBtn{
+  margin: 10px;
+  padding: 5px;
+}
